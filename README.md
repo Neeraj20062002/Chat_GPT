@@ -1,25 +1,33 @@
-This is the [assistant-ui](https://github.com/Yonom/assistant-ui) starter project.
+# 🤖 Assistant-UI Chat App
 
-## Getting Started
+A modern conversational web app built using **Next.js 15** and **Assistant-UI**, providing a sleek, developer-friendly chat interface powered by AI.
 
-First, add your OpenAI API key to `.env.local` file:
+> Adapted from the official [Assistant-UI Getting Started guide](https://www.assistant-ui.com/docs/getting-started).
 
-```
-OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-```
+---
 
-Then, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- ⚡ Built with **Next.js 15 + Turbopack**
+- 💬 Interactive chat interface using **Assistant-UI**
+- 🧱 Modular and scalable project structure
+- 🔄 Backend API route for handling AI responses
+- 🧰 Ready for local development or Vercel deployment
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Prerequisites
+
+Make sure you have:
+
+- [Node.js 18+](https://nodejs.org/)
+- npm or pnpm
+
+---
+
+## ⚙️ Setup
+
+Before running the project, create a `.env.local` file in the root directory  
+and add your required API key(s) or environment variables.
+
+Example:
