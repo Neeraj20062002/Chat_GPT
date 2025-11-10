@@ -73,15 +73,14 @@ pnpm dev
 4️⃣ Visit
 Open http://localhost:3000 in your browser to start chatting 💬
 
-🧠 How It Works
+🧠 How It Works :
+
 The Assistant-UI component provides a dynamic frontend chat interface.
-
 Each message is sent to the /api/assistant backend route.
-
 The backend route connects to an AI model (like OpenAI API).
-
 Responses are streamed back to the frontend in real-time.
 
+'''
 🧾 Example API Route (TypeScript)
 ts
 Copy code
@@ -106,9 +105,11 @@ export async function POST(req: Request) {
 
   return NextResponse.json(reply);
 }
-🌐 Deployment
-You can easily deploy this app to Vercel:
+'''
 
+🌐 Deployment
+
+You can easily deploy this app to Vercel:
 bash
 Copy code
 vercel deploy
@@ -122,7 +123,5 @@ npm start
 🔒 Authentication (NextAuth / Clerk)
 
 🧩 Plugin-based conversation extensions
-
 🪄 Theme customization (light/dark mode)
-
 💾 Persistent chat history using Supabase or Firebase
