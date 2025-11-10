@@ -81,7 +81,7 @@ The backend route connects to an AI model (like OpenAI API).
 Responses are streamed back to the frontend in real-time.
 
 
-## 🌐 Deployment
+ 🌐 Deployment
 
 You can easily deploy this app to **<mark>Vercel</mark>** 🚀:
 
@@ -109,7 +109,6 @@ npm start
 - Keeps commands (`vercel deploy`, `npm run build`) inside proper **code blocks**.  
 - Looks **clean, modern, and professional** when rendered.
 
-Would you like me to do the same kind of visual highlighting for your **Setup** and **Project Structure** sections too (to make the whole README consistently stylish)?
 
 
 
