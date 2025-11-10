@@ -72,7 +72,7 @@ npm run dev
 pnpm dev
 4️⃣ Visit
 Open http://localhost:3000 in your browser to start chatting 💬
-
+```
 🧠 How It Works :
 
 The Assistant-UI component provides a dynamic frontend chat interface.
@@ -81,7 +81,7 @@ The backend route connects to an AI model (like OpenAI API).
 Responses are streamed back to the frontend in real-time.
 
 
-```bash
+
  🌐 Deployment
 
 You can easily deploy this app to **<mark>Vercel</mark>** 🚀:
