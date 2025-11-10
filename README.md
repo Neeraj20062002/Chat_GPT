@@ -81,6 +81,7 @@ The backend route connects to an AI model (like OpenAI API).
 Responses are streamed back to the frontend in real-time.
 
 
+```bash
  🌐 Deployment
 
 You can easily deploy this app to **<mark>Vercel</mark>** 🚀:
