@@ -105,10 +105,6 @@ npm start
 
 ---
 
-### 💡 What this does:
-- Wraps key phrases (like “Vercel”, “Authentication”, “Theme customization”) with `<mark>` for **yellow highlights** on GitHub.  
-- Keeps commands (`vercel deploy`, `npm run build`) inside proper **code blocks**.  
-- Looks **clean, modern, and professional** when rendered.
 
 
 
