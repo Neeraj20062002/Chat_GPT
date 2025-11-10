@@ -80,32 +80,6 @@ Each message is sent to the /api/assistant backend route.
 The backend route connects to an AI model (like OpenAI API).
 Responses are streamed back to the frontend in real-time.
 
-'''
-🧾 Example API Route (TypeScript)
-ts
-Copy code
-// app/api/assistant/route.ts
-import { NextResponse } from "next/server";
-
-export async function POST(req: Request) {
-  const { messages } = await req.json();
-
-  // Example AI integration (pseudo-code)
-  const reply = await fetch("https://api.openai.com/v1/chat/completions", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
-    },
-    body: JSON.stringify({
-      model: "gpt-4o-mini",
-      messages,
-    }),
-  }).then((res) => res.json());
-
-  return NextResponse.json(reply);
-}
-'''
 
 🌐 Deployment
 
