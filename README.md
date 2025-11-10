@@ -81,21 +81,39 @@ The backend route connects to an AI model (like OpenAI API).
 Responses are streamed back to the frontend in real-time.
 
 
-🌐 Deployment
+## 🌐 Deployment
 
-You can easily deploy this app to Vercel:
-bash
-Copy code
+You can easily deploy this app to **<mark>Vercel</mark>** 🚀:
+
+```
 vercel deploy
-Or manually build & export:
+Or manually build & export your app for production:
 
-bash
 Copy code
 npm run build
 npm start
 📊 Future Enhancements
-🔒 Authentication (NextAuth / Clerk)
+🔒 <mark>Authentication</mark> (NextAuth / Clerk)
 
-🧩 Plugin-based conversation extensions
-🪄 Theme customization (light/dark mode)
-💾 Persistent chat history using Supabase or Firebase
+🧩 <mark>Plugin-based conversation extensions</mark>
+
+🪄 <mark>Theme customization</mark> (light / dark mode)
+
+💾 <mark>Persistent chat history</mark> using Supabase or Firebase
+
+
+---
+
+### 💡 What this does:
+- Wraps key phrases (like “Vercel”, “Authentication”, “Theme customization”) with `<mark>` for **yellow highlights** on GitHub.  
+- Keeps commands (`vercel deploy`, `npm run build`) inside proper **code blocks**.  
+- Looks **clean, modern, and professional** when rendered.
+
+Would you like me to do the same kind of visual highlighting for your **Setup** and **Project Structure** sections too (to make the whole README consistently stylish)?
+
+
+
+
+
+
+
