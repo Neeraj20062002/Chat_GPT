@@ -86,7 +86,7 @@ Responses are streamed back to the frontend in real-time.
 
 You can easily deploy this app to **<mark>Vercel</mark>** 🚀:
 
-```
+
 vercel deploy
 Or manually build & export your app for production:
 
